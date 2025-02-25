@@ -3,18 +3,18 @@
 # 如何在 Node.js 中使用代理服务器
 本文将为你演示如何在 `node-fetch`、Playwright 和 Puppeteer 中集成代理。同时，你也会了解到在 Axios 中使用 Bright Data 的[住宅代理](https://www.bright.cn/proxy-types/residential-proxies)的方法。你也可以在 [Bright Data 的博客](https://www.bright.cn/blog/how-tos/nodejs-proxy-servers)中查看此指南。
 
-- [环境要求](#requirements)
-  * [搭建本地代理服务器](#set-up-a-local-proxy-server)
-- [在 Node.js 中集成代理](#integrating-proxies-in-nodejs)
-  * [在 `node-fetch` 中集成本地代理](#local-proxy-integration-with-node-fetch)
-  * [在 Playwright 中使用本地代理](#local-proxy-integration-in-playwright)
-  * [在 Puppeteer 中使用本地代理](#local-proxy-integration-using-puppeteer)
-- [在 Node.js 中集成 Bright Data 代理](#bright-data-proxy-integration-in-nodejs)
-  * [住宅代理配置](#residential-proxy-configuration)
-  * [Axios 代理设置](#axios-proxy-setup)
-  * [测试 IP 轮换](#testing-ip-rotation)
+- [环境要求](#环境要求)
+  * [搭建本地代理服务器](#搭建本地代理服务器)
+- [在 Node.js 中集成代理](#在-Node.js-中集成代理)
+  * [在 `node-fetch` 中集成本地代理](#在-`node-fetch`-中集成本地代理)
+  * [在 Playwright 中使用本地代理](#在-Playwright-中使用本地代理)
+  * [在 Puppeteer 中使用本地代理](#在-Puppeteer-中使用本地代理)
+- [在 Node.js 中集成 Bright Data 代理](#在-Node.js-中集成-Bright-Data-代理)
+  * [住宅代理配置](#住宅代理配置)
+  * [Axios 代理设置](#Axios-代理设置)
+  * [测试 IP 轮换](#测试-IP-轮换)
 
-## Requirenments
+## 环境要求
 确保你的机器上已安装了 Node.js。如未安装，可从 [Node.js 官方网站](https://nodejs.org/en/download) 下载并运行安装程序，按照向导完成安装。
 
 创建一个用于存放 Node.js 项目的文件夹，进入该文件夹后，在其中初始化一个 npm 应用：
