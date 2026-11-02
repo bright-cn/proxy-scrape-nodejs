@@ -3,7 +3,7 @@
 # 如何在 Node.js 中使用代理服务器
 了解如何在 `node-fetch`、Playwright 和 Puppeteer 中集成代理。你还将了解如何在 Axios 中使用 Bright Data 的[住宅代理](https://www.bright.cn/proxy-types/residential-proxies)。本指南也可在 [Bright Data 博客](https://www.bright.cn/blog/how-tos/nodejs-proxy-servers)上查看。
 
-- [要求](#requirements)
+- [要求](#要求)
   * [设置本地代理服务器](#设置本地代理服务器)
 - [在 Node.js 中集成代理](#在-nodejs-中集成代理)
   * [使用 `node-fetch` 集成本地代理](#使用-node-fetch-集成本地代理)
@@ -56,7 +56,7 @@ Weather report: Paris
 ## 在 Node.js 中集成代理
 编写一个 Node.js 脚本，使用以下技术通过本地代理服务器连接网站：
 * [`node-fetch`](https://www.npmjs.com/package/node-fetch)
-* [Playwright](https://playwaright.dev/)
+* [Playwright](https://playwright.dev/)
 * [Puppeteer](https://pptr.dev/)
 
 ### 使用 `node-fetch` 集成本地代理
